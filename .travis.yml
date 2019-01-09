@@ -6,7 +6,6 @@ env:
   - RELEASE_TAG="release-$TRAVIS_BUILD_NUMBER"
 if: tag IS blank
 
-
 jobs:
   include:
     - stage: build and publish
@@ -36,4 +35,4 @@ jobs:
         username: $CF_USERNAME
         password: $CF_PASSWORD
         organization: $CF_ORG
-        space: review
+        space: $CF_SPACE
