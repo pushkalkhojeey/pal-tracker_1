@@ -1,4 +1,4 @@
-/*
+
 package test.pivotal.pal.tracker;
 
 import io.pivotal.pal.tracker.TimeEntry;
@@ -126,6 +126,6 @@ public class TimeEntryControllerTest {
         ResponseEntity<TimeEntry> response = controller.delete(timeEntryId);
         verify(timeEntryRepository).delete(timeEntryId);
         assertThat(response.getStatusCode()).isEqualTo(HttpStatus.NO_CONTENT);
-    }
 }
-*/
+}
+
