@@ -17,7 +17,7 @@ import java.util.TimeZone;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class JdbcTimeEntryRepositoryTest {
+public class  JdbcTimeEntryRepositoryTest{
     private TimeEntryRepository subject;
     private JdbcTemplate jdbcTemplate;
 
